@@ -31,8 +31,8 @@ Y. Okuno, ``Applying mpaligner to machine transliteration with japanese-specific
 Go as follow:
 
 ```
-  $ tar xvfz mpaligner_<version>.tar.gz
-  $ cd mpaligner_<version>
+  $ git clone git@github.com:keigo-k/mpaligner.git
+  $ cd mpaligner
   $ make
   $ cp mpaligner <directory included in PATH>
 ```

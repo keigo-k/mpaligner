@@ -53,9 +53,9 @@ m2m-aligner は1対1，2対1，1対2でアライメントを行うことを想�
 　以下の通りです．
 
 ```
-　$ tar xvfz mpaligner_<version>.tar.gz
-　$ cd mpaligner_<version>
-　$ make
+  $ git clone git@github.com:keigo-k/mpaligner.git
+  $ cd mpaligner
+  $ make
 　$ cp mpaligner <パスの通ったディレクトリ>
 ```
 

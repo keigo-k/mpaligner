@@ -2531,7 +2531,7 @@ static void initialization(TOTAL_INFO *info, double **alpha, double **beta) {
   }
 
   if (previous_knowledge_file != NULL) {
-    readPreviousKnowledge(info);
+    readPreviousKnowledge();
   }
 
   for (i = 0; i < sqrt_hash_size; i++) {
